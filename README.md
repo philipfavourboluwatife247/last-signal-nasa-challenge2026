@@ -2,7 +2,7 @@
 
 **Stories from the silent machines.**
 
-![Last Signal Logo](https://imgur.com/a/7f92avr)
+![Last Signal Logo](https://imgur.com/a/last-signal-logo-7f92avr)
 
 Last Signal is a web game and interactive story about the machines NASA has left on the Moon and Mars. You are a *Signal Operator*: tune in to a glowing signal on a 3D world, hear the machine tell its own story, prove you were listening, then unlock its full story, a mission replay and a chat that answers only from verified facts.
 
