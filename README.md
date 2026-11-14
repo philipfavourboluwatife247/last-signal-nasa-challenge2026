@@ -131,5 +131,5 @@ Real Moon and Mars maps and relief, rover routes from official traverse data, mo
 
 ## Team and licence
 
-### Developed By: Favour Boluwatife Philip
-#### Team Leader: Treasure Oluwadurotimi Philip
+- Developed By: Favour Boluwatife Philip
+- Team Leader: Treasure Oluwadurotimi Philip
