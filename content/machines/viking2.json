@@ -1,0 +1,142 @@
+{
+  "id": "viking2",
+  "name": "Viking 2",
+  "world": "mars",
+  "location": {
+    "siteName": "Utopia Planitia",
+    "lat": 47.64,
+    "lon": 134.29
+  },
+  "mission": "Viking program",
+  "startDate": "1976-09-03",
+  "status": "silent",
+  "lastContact": "1980-04-11",
+  "summary": "The twin of Viking 1, a lander that scooped Martian soil to test for signs of life on the flat plains of Utopia Planitia until its last data reached Earth in 1980.",
+  "discoveries": [
+    "Sent back pictures of a remarkably flat Martian plain for more than three years.",
+    "Used a robot arm to scoop up soil and test it for signs of life."
+  ],
+  "stories": {
+    "kids": "I’m Viking 2, twin of Viking 1. We landed on nearly opposite sides of Mars. I used my robot arm to scoop up soil and test it for signs of life, and I sent back pictures. My last data reached Earth in 1980, and I’m still where I landed.",
+    "explorer": "Viking 2 touched down on Utopia Planitia on September 3, 1976, just after Viking 1 landed on the other side of Mars. The last data from the lander arrived at Earth on April 11, 1980. Viking 1 worked the longest, until 1982.",
+    "scientist": "Viking Lander 2 touched down at Utopia Planitia (47.64° N, 134.29° E, planetocentric) on September 3, 1976, after the orbiter entered Mars orbit on August 7. The landing area is remarkably flat, with near-field slopes under 1 degree, and lies somewhat near the large crater Mie. The last data from the lander arrived at Earth on April 11, 1980."
+  },
+  "keyNumbers": [
+    {
+      "label": "Landed",
+      "value": "September 3, 1976",
+      "sourceId": "nasa-viking2"
+    },
+    {
+      "label": "Last data received",
+      "value": "April 11, 1980",
+      "sourceId": "nasa-viking2"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-viking2",
+      "title": "Viking 2",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/viking/viking-2"
+    },
+    {
+      "id": "nssdca-viking",
+      "title": "Viking Mission to Mars",
+      "publisher": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/viking.html"
+    },
+    {
+      "id": "mola-viking2",
+      "title": "Viking 2 – Utopia Planitia",
+      "publisher": "NASA Goddard Space Flight Center",
+      "url": "https://science.gsfc.nasa.gov/attic/mola/viking2.html"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/viking2.jpg",
+    "alt": "View from the Viking 2 lander on Utopia Planitia: parts of the lander, a U.S. flag and a flat, rock-strewn Martian plain.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "PHOTO ON MARS"
+  },
+  "art": "lander-viking",
+  "learnMore": {
+    "label": "Read NASA’s Viking 2 page",
+    "url": "https://science.nasa.gov/mission/viking/viking-2"
+  },
+  "clues": [
+    {
+      "prompt": "Where on Mars did I land?",
+      "options": [
+        "Gale Crater",
+        "Utopia Planitia",
+        "Jezero Crater"
+      ],
+      "answer": 1,
+      "explain": "Viking 2 landed on Utopia Planitia.",
+      "card": 0
+    },
+    {
+      "prompt": "What did my robot arm scoop up to test for signs of life?",
+      "options": [
+        "Soil",
+        "Water from a river",
+        "Pieces of a meteorite"
+      ],
+      "answer": 0,
+      "explain": "The lander’s arm scooped up soil to test it for life.",
+      "card": 1
+    },
+    {
+      "prompt": "How long did I work on Mars?",
+      "options": [
+        "Only a few days",
+        "More than three years",
+        "More than fifty years"
+      ],
+      "answer": 1,
+      "explain": "I landed in September 1976 and my last data arrived in April 1980.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1976-08-07",
+      "tone": "arrive",
+      "title": "Into orbit",
+      "text": "The Viking 2 spacecraft enters orbit around Mars, with its lander still attached."
+    },
+    {
+      "date": "1976-09-03",
+      "tone": "discover",
+      "title": "Touchdown on Utopia Planitia",
+      "text": "The lander separates and touches down on a flat plain, then begins sending back pictures and testing soil for signs of life."
+    },
+    {
+      "date": "1980-04-11",
+      "tone": "end",
+      "title": "The last data",
+      "text": "The last data from Viking Lander 2 arrives at Earth. The lander stays where it landed."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Viking 2, the twin of Viking 1. I landed on Utopia Planitia, a vast flat plain on Mars, on September 3, 1976, on nearly the opposite side of the planet from my twin."
+    },
+    {
+      "title": "What I did",
+      "text": "I sent back pictures of my surroundings, and I used my robot arm to scoop up soil and test it for signs of life."
+    },
+    {
+      "title": "How it ended",
+      "text": "The last data from me reached Earth on April 11, 1980, after more than three years on Mars. I’m still sitting where I landed."
+    }
+  ]
+}

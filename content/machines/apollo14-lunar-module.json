@@ -1,0 +1,142 @@
+{
+  "id": "apollo14-lunar-module",
+  "name": "Apollo 14 Lunar Module Antares",
+  "world": "moon",
+  "location": {
+    "siteName": "Fra Mauro highlands",
+    "lat": -3.645,
+    "lon": -17.471
+  },
+  "mission": "Apollo 14",
+  "startDate": "1971-02-05",
+  "status": "silent",
+  "lastContact": "1971-02-06",
+  "summary": "The lunar module that landed Alan Shepard and Edgar Mitchell in the Fra Mauro highlands. Its descent stage was left behind on the Moon.",
+  "discoveries": [
+    "Carried Alan Shepard and Edgar Mitchell to the Fra Mauro highlands for two moonwalks.",
+    "Its crew set up a package of science experiments, called ALSEP, beside it."
+  ],
+  "stories": {
+    "kids": "I’m Antares, the lunar module of Apollo 14. I carried Alan Shepard and Edgar Mitchell to the hills of Fra Mauro. When their moonwalks were over, my top half took them back up to orbit, and my bottom half stayed on the Moon. It’s still there.",
+    "explorer": "Antares landed on the Moon on February 5, 1971, in the hills near Fra Mauro crater. Shepard and Mitchell made two moonwalks, on February 5 and 6, totaling 9 hours 23 minutes. The ascent stage lifted off on February 6, and the descent stage was left behind.",
+    "scientist": "The Apollo 14 Lunar Module Antares, the third crewed vehicle to land on the Moon, touched down at 3.6453° S, 17.4714° W on 5 February 1971 (UT 09:18). Two EVAs totaling 9 h 23 min were made and the Apollo Lunar Surface Experiments Package was emplaced at the landing site. The ascent stage launched on 6 February at UT 18:48; the descent stage served as its launch platform and was left on the Moon."
+  },
+  "keyNumbers": [
+    {
+      "label": "Landed",
+      "value": "February 5, 1971",
+      "sourceId": "pds-a14"
+    },
+    {
+      "label": "Time on moonwalks",
+      "value": "9 hours 23 minutes",
+      "sourceId": "pds-a14"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pds-a14",
+      "title": "Apollo 14 Mission Overview",
+      "publisher": "NASA PDS Geosciences Node",
+      "url": "https://pds-geosciences.wustl.edu/lunar/urn-nasa-pds-apollodoc/document_a14/mission/a14_mission.txt"
+    },
+    {
+      "id": "pds-a14lm",
+      "title": "Apollo 14 Lunar Module Instrument Host Overview",
+      "publisher": "NASA PDS Geosciences Node",
+      "url": "https://pds-geosciences.wustl.edu/lunar/urn-nasa-pds-apollodoc/document_a14/instrument_hosts/a14l_lm.txt"
+    },
+    {
+      "id": "nasa-a14",
+      "title": "Apollo 14 mission page",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo14.html"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "art": "lander-legs",
+  "image": {
+    "url": "/machines/apollo14-lunar-module.jpg",
+    "alt": "An Apollo lunar module standing on the Moon with a U.S. flag beside it, its legs wrapped in gold foil.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "APOLLO LUNAR MODULE ON THE MOON"
+  },
+  "learnMore": {
+    "label": "Read NASA’s Apollo 14 page",
+    "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo14.html"
+  },
+  "clues": [
+    {
+      "prompt": "Where on the Moon did I land?",
+      "options": [
+        "The Fra Mauro highlands",
+        "The Sea of Tranquility",
+        "The Descartes Highlands"
+      ],
+      "answer": 0,
+      "explain": "Antares landed near the crater Fra Mauro.",
+      "card": 0
+    },
+    {
+      "prompt": "How many moonwalks did my crew make?",
+      "options": [
+        "One",
+        "Two",
+        "Five"
+      ],
+      "answer": 1,
+      "explain": "Shepard and Mitchell made two moonwalks, on February 5 and 6.",
+      "card": 1
+    },
+    {
+      "prompt": "What part of me was left behind on the Moon?",
+      "options": [
+        "My descent stage",
+        "My ascent stage",
+        "Neither part"
+      ],
+      "answer": 0,
+      "explain": "The descent stage was the launch platform and stayed on the Moon.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1971-01-31",
+      "tone": "arrive",
+      "title": "Launch toward the Moon",
+      "text": "Apollo 14 lifts off on a Saturn V rocket with the lunar module Antares on board."
+    },
+    {
+      "date": "1971-02-05",
+      "tone": "discover",
+      "title": "Landing at Fra Mauro",
+      "text": "Antares lands in the hills of Fra Mauro, and the crew makes the first of two moonwalks."
+    },
+    {
+      "date": "1971-02-06",
+      "tone": "end",
+      "title": "Liftoff for home",
+      "text": "After the second moonwalk, the ascent stage lifts the crew off. The descent stage stays behind."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Antares, the lunar module of Apollo 14, the third crewed vehicle to land on the Moon. On February 5, 1971, I landed Alan Shepard and Edgar Mitchell near the crater Fra Mauro."
+    },
+    {
+      "title": "What I did",
+      "text": "Shepard and Mitchell made two moonwalks, on February 5 and 6, totaling 9 hours 23 minutes. They set up science experiments beside me."
+    },
+    {
+      "title": "Where I am now",
+      "text": "On February 6, 1971, my top half lifted the crew off the Moon. My bottom half, the descent stage, was left behind, and it is still there."
+    }
+  ]
+}

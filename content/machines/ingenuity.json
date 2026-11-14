@@ -1,0 +1,131 @@
+{
+  "id": "ingenuity",
+  "name": "Ingenuity",
+  "world": "mars",
+  "location": {
+    "siteName": "Jezero crater (Wright Brothers Field)",
+    "lat": 18.44,
+    "lon": 77.45
+  },
+  "mission": "Mars 2020",
+  "startDate": "2021-02-18",
+  "status": "silent",
+  "lastContact": "2024-01-18",
+  "summary": "A small helicopter planned for up to five flights that flew 72 times and became the first aircraft to fly on another world.",
+  "discoveries": [
+    "Made the first powered, controlled flight on another planet.",
+    "Flew 72 times, about 14 times farther than planned."
+  ],
+  "stories": {
+    "kids": "I was a little helicopter meant to fly just five times. I flew 72! I was the first aircraft ever to fly on another world. After my last flight, a damaged rotor blade meant I could never fly again.",
+    "explorer": "Ingenuity arrived with the Perseverance rover in February 2021 as a 30-day technology test. It flew for almost three years. After its 72nd flight on January 18, 2024, rotor damage ended its flying career and NASA ended the mission on January 25, 2024.",
+    "scientist": "Ingenuity was designed for up to five test flights over 30 days. It completed 72 flights totaling more than two hours and roughly 17 km. Flight 72 on January 18, 2024 ended with rotor blade damage; NASA ended the mission on January 25, 2024."
+  },
+  "keyNumbers": [
+    {
+      "label": "Flights flown",
+      "value": "72",
+      "sourceId": "nasa-ingenuity"
+    },
+    {
+      "label": "Total distance",
+      "value": "about 17 km",
+      "sourceId": "nasa-ingenuity"
+    },
+    {
+      "label": "Planned flights",
+      "value": "up to 5",
+      "sourceId": "nasa-ingenuity"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-ingenuity",
+      "title": "After Three Years on Mars, NASA’s Ingenuity Helicopter Mission Ends",
+      "publisher": "NASA (Jan 25, 2024)",
+      "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/ingenuity.jpg",
+    "alt": "NASA’s Ingenuity Mars Helicopter photographed on Earth, showing its carbon-fibre rotor blades and four landing legs.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "PHOTO ON EARTH"
+  },
+  "art": "helicopter",
+  "learnMore": {
+    "label": "Read NASA’s announcement",
+    "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/"
+  },
+  "clues": [
+    {
+      "prompt": "How many flights was I meant to make?",
+      "options": [
+        "72",
+        "Up to 5",
+        "30"
+      ],
+      "answer": 1,
+      "explain": "I was designed for up to five test flights.",
+      "card": 1
+    },
+    {
+      "prompt": "What was special about my flights?",
+      "options": [
+        "The first powered, controlled flight on another planet",
+        "The first balloon on Venus",
+        "The first plane on the Moon"
+      ],
+      "answer": 0,
+      "explain": "Ingenuity made the first powered, controlled flight on another planet. I flew 72 times in all.",
+      "card": 1
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-02-18",
+      "tone": "arrive",
+      "title": "Arrival with Perseverance",
+      "text": "Ingenuity reaches Mars as a technology test, designed for up to five flights."
+    },
+    {
+      "date": "2021-04-19",
+      "tone": "discover",
+      "title": "First flight",
+      "text": "Ingenuity makes the first powered, controlled flight on another planet.",
+      "fx": "flight"
+    },
+    {
+      "date": "2024-01-18",
+      "tone": "trouble",
+      "title": "Flight 72",
+      "text": "Its 72nd and final flight ends with rotor damage."
+    },
+    {
+      "date": "2024-01-25",
+      "tone": "end",
+      "title": "Mission ends",
+      "text": "NASA ends the Ingenuity mission after about 17 km flown."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Ingenuity, a small helicopter. I arrived on Mars with the Perseverance rover on February 18, 2021."
+    },
+    {
+      "title": "My plan",
+      "text": "I was designed for up to five test flights. On April 19, 2021, I made the first powered, controlled flight on another planet."
+    },
+    {
+      "title": "How it ended",
+      "text": "I flew 72 times, about 17 km in all. My last flight, on January 18, 2024, damaged a rotor, and NASA ended my mission on January 25."
+    }
+  ]
+}

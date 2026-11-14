@@ -1,0 +1,143 @@
+{
+  "id": "apollo11-laser-mirror",
+  "name": "Apollo 11 Laser Mirror",
+  "world": "moon",
+  "location": {
+    "siteName": "Tranquility Base, Sea of Tranquility",
+    "lat": 0.67,
+    "lon": 23.47
+  },
+  "mission": "Apollo 11",
+  "startDate": "1969-07-20",
+  "status": "active",
+  "summary": "A panel of about 100 mirrors left by the first moonwalkers. Scientists on Earth still fire lasers at it to measure the distance to the Moon.",
+  "discoveries": [
+    "Laser pulses bounced off the array let scientists measure the Earth–Moon distance very precisely.",
+    "Lunar laser ranging is still performed routinely to track the Moon’s orbit and rotation."
+  ],
+  "stories": {
+    "kids": "I’m a panel of about 100 little mirrors, left behind by the first people to walk on the Moon. I’m a passive reflector: when scientists on Earth aim a laser at me, I bounce it straight back. I’m still working!",
+    "explorer": "Armstrong and Aldrin placed this laser ranging reflector on July 21, 1969, near the end of their last moonwalk. It is passive: it simply returns light to where it came from. More than fifty years later, observatories still time laser pulses to measure the Moon’s distance and motion.",
+    "scientist": "The Apollo 11 Laser Ranging Retroreflector array (about 100 mirrors) was deployed on July 21, 1969. Timing laser pulses reflected from it gives the Earth–Moon distance; the data support studies of the Moon’s orbit and rotation and tests of general relativity."
+  },
+  "keyNumbers": [
+    {
+      "label": "Mirrors in the array",
+      "value": "about 100",
+      "sourceId": "nasa-2004"
+    },
+    {
+      "label": "Placed on the Moon",
+      "value": "July 21, 1969",
+      "sourceId": "nasa-2004"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-2004",
+      "title": "Apollo 11 Science Experiment Still Running (2004)",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/vision/space/features/21jul_llr.html"
+    },
+    {
+      "id": "jpl-35",
+      "title": "Apollo 11 Experiment Still Going Strong After 35 Years",
+      "publisher": "NASA/JPL",
+      "url": "https://www.jpl.nasa.gov/news/apollo-11-experiment-still-going-strong-after-35-years/"
+    },
+    {
+      "id": "ieee-2019",
+      "title": "One Apollo 11 Experiment Is Still Going 50 Years Later",
+      "publisher": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/one-apollo-11-experiment-is-still-going-50-years-later"
+    },
+    {
+      "id": "nasa-gsfc-llr",
+      "title": "Reflectors placed on the moon by Apollo 11 astronauts 50 years ago continue to provide fresh lunar laser ranging data",
+      "publisher": "NASA Goddard",
+      "url": "https://earth.gsfc.nasa.gov/geo/projects/sgp/updates/reflectors-placed-moon-apollo-11-astronauts-50-years-ago-continue-provide"
+    },
+    {
+      "id": "nasa-ilrs-ngl1",
+      "title": "Next Generation Lunar Retroreflector-1 (mentions the Apollo reflectors)",
+      "publisher": "NASA ILRS",
+      "url": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ngl1_general.html"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "art": "mirror",
+  "learnMore": {
+    "label": "Read the NASA/JPL story",
+    "url": "https://www.jpl.nasa.gov/news/apollo-11-experiment-still-going-strong-after-35-years/"
+  },
+  "clues": [
+    {
+      "prompt": "What do I do when scientists aim a laser at me?",
+      "options": [
+        "I turn it into radio waves",
+        "I bounce it straight back",
+        "I soak it up and glow"
+      ],
+      "answer": 1,
+      "explain": "I’m a passive reflector: I simply return the light to where it came from.",
+      "card": 1
+    },
+    {
+      "prompt": "About how many little mirrors are in my panel?",
+      "options": [
+        "About 10",
+        "About 100",
+        "About 1,000"
+      ],
+      "answer": 1,
+      "explain": "NASA describes the array as made up of about 100 mirrors.",
+      "card": 0
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1969-07-20",
+      "tone": "arrive",
+      "title": "Eagle lands",
+      "text": "Apollo 11 touches down at Tranquility Base on July 20, 1969."
+    },
+    {
+      "date": "1969-07-21",
+      "tone": "discover",
+      "title": "A mirror panel is set up",
+      "text": "Armstrong and Aldrin place the laser ranging reflector, about 100 mirrors, near the end of their moonwalk."
+    },
+    {
+      "date": "2019-07-20",
+      "tone": "live",
+      "title": "Still working, 50 years later",
+      "text": "Observatories on Earth still time laser pulses bounced off this panel to measure the Moon’s distance and motion.",
+      "fx": "laser"
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m a panel of about 100 little mirrors. The first moonwalkers, Armstrong and Aldrin, set me up on July 21, 1969."
+    },
+    {
+      "title": "What I do",
+      "text": "I’m a passive reflector: when scientists aim a laser at me, I bounce the light straight back to where it came from."
+    },
+    {
+      "title": "Why it matters",
+      "text": "By timing how long the light takes to come back, scientists measure the distance to the Moon very precisely. They still do it today, more than fifty years later!"
+    }
+  ],
+  "image": {
+    "url": "/machines/apollo11-laser-mirror.jpg",
+    "alt": "A laser reflector left on the Moon by Apollo astronauts: a flat panel of small mirror cubes in a metal frame, surrounded by boot prints in grey dust.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "APOLLO LASER REFLECTOR ON THE MOON"
+  }
+}

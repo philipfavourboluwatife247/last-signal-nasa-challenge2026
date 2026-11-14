@@ -1,0 +1,142 @@
+{
+  "id": "apollo17-rover",
+  "name": "Apollo 17 Lunar Rover",
+  "world": "moon",
+  "location": {
+    "siteName": "Taurus–Littrow valley",
+    "lat": 20.19,
+    "lon": 30.77
+  },
+  "mission": "Apollo 17",
+  "startDate": "1972-12-11",
+  "status": "silent",
+  "lastContact": "1972-12-13",
+  "summary": "The third and last Lunar Roving Vehicle, left parked in the Taurus–Littrow valley after the final moonwalk of the Apollo program.",
+  "discoveries": [
+    "Carried Eugene Cernan and Harrison Schmitt to craters, cliffs and mountains around the Taurus–Littrow valley.",
+    "Drove about 35.9 km, farther than the Apollo 15 and Apollo 16 rovers."
+  ],
+  "stories": {
+    "kids": "I’m the third and last car astronauts drove on the Moon. Eugene Cernan and Harrison Schmitt used me to explore a deep valley between mountains. After the very last Apollo moonwalk, they parked me. I’m still there.",
+    "explorer": "Apollo 17 landed in the Taurus–Littrow valley on December 11, 1972. The crew used their Lunar Roving Vehicle on all three moonwalks and drove about 35.9 km, the most of the three Apollo rovers. After the final moonwalk on December 13 it was left behind.",
+    "scientist": "The Apollo 17 Lunar Roving Vehicle, the third and last flown, was deployed on the first moonwalk, 11 December 1972 UTC, in the Taurus–Littrow valley (about 20.19° N, 30.77° E). NASA NSSDCA lists about 35.9 km driven in 4 h 26 min, with a longest traverse of 20.1 km and a greatest range of 7.6 km from the lander. Other NASA sources give about 35.7 km. It was left parked after the final moonwalk."
+  },
+  "keyNumbers": [
+    {
+      "label": "Distance driven (Apollo 17)",
+      "value": "about 35.9 km",
+      "sourceId": "nssdca-lrv"
+    },
+    {
+      "label": "Farthest from the lander",
+      "value": "7.6 km",
+      "sourceId": "nssdca-lrv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nssdca-lrv",
+      "title": "The Apollo Lunar Roving Vehicle",
+      "publisher": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+    },
+    {
+      "id": "pds-a17",
+      "title": "Apollo 17 Mission Overview (surface operations)",
+      "publisher": "NASA PDS Geosciences Node",
+      "url": "https://pds-geosciences.wustl.edu/Lunar/urn-nasa-pds-a17tg_traverse_gravity/document/a17_mission.txt"
+    },
+    {
+      "id": "nasa-a17-img",
+      "title": "Cernan beside the Lunar Roving Vehicle during the third moonwalk, 13 December 1972",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/image-detail/amf-as17-134-20476/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/lunar-rover.jpg",
+    "alt": "An Apollo Lunar Roving Vehicle parked on the Moon, with its dish antenna and wire wheels, under a black sky.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "LUNAR ROVER ON THE MOON"
+  },
+  "art": "buggy",
+  "learnMore": {
+    "label": "Read NASA’s Lunar Roving Vehicle page",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+  },
+  "clues": [
+    {
+      "prompt": "Which Lunar Roving Vehicle was I?",
+      "options": [
+        "The first one, from Apollo 15",
+        "The third and last one, from Apollo 17",
+        "A rover from Mars"
+      ],
+      "answer": 1,
+      "explain": "Apollo 17 carried the third and last Lunar Roving Vehicle.",
+      "card": 0
+    },
+    {
+      "prompt": "How far did I drive in all?",
+      "options": [
+        "About 3.6 km",
+        "About 35.9 km",
+        "About 359 km"
+      ],
+      "answer": 1,
+      "explain": "NASA lists about 35.9 km, the most of the three Apollo rovers.",
+      "card": 1
+    },
+    {
+      "prompt": "What was special about my last drive?",
+      "options": [
+        "It was my first test drive",
+        "It took place on Mars",
+        "It ended the final moonwalk of the Apollo program"
+      ],
+      "answer": 2,
+      "explain": "The third Apollo 17 moonwalk, on December 13, 1972, was the last of Apollo.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1972-12-11",
+      "tone": "arrive",
+      "title": "Landing in Taurus–Littrow",
+      "text": "Apollo 17 lands in the Taurus–Littrow valley, and on the first moonwalk the crew unloads, sets up and drives the rover."
+    },
+    {
+      "date": "1972-12-12",
+      "tone": "discover",
+      "title": "Out to Nansen crater",
+      "text": "On the second moonwalk the rover carries the crew out to Nansen crater and back past Shorty and Camelot craters."
+    },
+    {
+      "date": "1972-12-13",
+      "tone": "end",
+      "title": "The last moonwalk",
+      "text": "After a final drive toward the North Massif the crew flies home and leaves the rover parked. About 35.9 km driven in all."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m the Lunar Roving Vehicle from Apollo 17, the third and last rover astronauts drove on the Moon. Eugene Cernan and Harrison Schmitt landed in the Taurus–Littrow valley on December 11, 1972."
+    },
+    {
+      "title": "What I did",
+      "text": "On three moonwalks I carried the crew to craters, cliffs and mountains around the valley. I drove about 35.9 km in all, farther than the Apollo 15 and 16 rovers."
+    },
+    {
+      "title": "Where I am now",
+      "text": "After the final moonwalk of the Apollo program on December 13, 1972, the crew flew home and left me parked in the valley. I’m one of three rovers still on the Moon."
+    }
+  ]
+}

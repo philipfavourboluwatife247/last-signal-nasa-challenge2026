@@ -1,0 +1,120 @@
+{
+  "id": "opportunity",
+  "name": "Opportunity",
+  "world": "mars",
+  "location": {
+    "siteName": "Meridiani Planum",
+    "lat": -1.95,
+    "lon": -5.53
+  },
+  "mission": "Mars Exploration Rover",
+  "startDate": "2004-01-25",
+  "status": "silent",
+  "lastContact": "2018-06-10",
+  "summary": "A solar-powered rover planned for 90 sols that worked for more than 14 years and found evidence that water once shaped its landing region.",
+  "discoveries": [
+    "Found evidence that liquid water once existed at Meridiani Planum.",
+    "Drove more than a marathon distance across the Martian surface."
+  ],
+  "stories": {
+    "kids": "I was built for a 90-day job and kept going for more than 14 years. I found proof that water once soaked this land. In 2018 a giant dust storm blocked the sunlight I needed, and I went quiet.",
+    "explorer": "Opportunity landed in January 2004 and explored Meridiani Planum, studying rocks that recorded a wetter Martian past. A planet-wide dust storm in 2018 cut off its solar power. NASA declared the mission complete on February 13, 2019.",
+    "scientist": "Opportunity operated at Meridiani Planum from 2004 to 2018. Last contact was June 10, 2018, during a planet-encircling dust storm that limited solar power. Total odometry was 45.16 km."
+  },
+  "keyNumbers": [
+    {
+      "label": "Planned mission",
+      "value": "90 sols",
+      "sourceId": "mer"
+    },
+    {
+      "label": "Distance driven",
+      "value": "45.16 km",
+      "sourceId": "mer"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mer",
+      "title": "Mars Exploration Rovers: Spirit and Opportunity",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/opportunity.jpg",
+    "alt": "Black-and-white view from the Opportunity rover showing its robotic arm reaching toward rocky Martian ground.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "PHOTO ON MARS"
+  },
+  "art": "rover",
+  "learnMore": {
+    "label": "Read more on NASA Science",
+    "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+  },
+  "clues": [
+    {
+      "prompt": "What blocked my sunlight in 2018?",
+      "options": [
+        "A giant rock",
+        "Rain clouds",
+        "A planet-wide dust storm"
+      ],
+      "answer": 2,
+      "explain": "A planet-encircling dust storm cut off the sunlight my solar panels needed.",
+      "card": 2
+    },
+    {
+      "prompt": "I was built for 90 sols. About how long did I last?",
+      "options": [
+        "More than 14 years",
+        "90 days exactly",
+        "Two years"
+      ],
+      "answer": 0,
+      "explain": "I worked on Mars from 2004 until the 2018 storm.",
+      "card": 1
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2004-01-25",
+      "tone": "arrive",
+      "title": "Landing at Meridiani Planum",
+      "text": "Opportunity begins a mission planned for 90 sols."
+    },
+    {
+      "date": "2018-06-10",
+      "tone": "end",
+      "title": "Last contact, in a dust storm",
+      "text": "A planet-encircling dust storm blocks the sunlight the solar panels need. Opportunity drove 45.16 km in all.",
+      "fx": "dust"
+    },
+    {
+      "date": "2019-02-13",
+      "tone": "end",
+      "title": "Mission complete",
+      "text": "NASA declares the mission complete on February 13, 2019."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Opportunity, a solar-powered rover. I landed on Meridiani Planum on January 25, 2004, built for a mission of 90 sols."
+    },
+    {
+      "title": "My long life",
+      "text": "I worked on Mars for more than 14 years and drove 45.16 km, farther than a marathon. I found evidence that water once existed here."
+    },
+    {
+      "title": "The storm",
+      "text": "In June 2018 a planet-wide dust storm blocked the sunlight my solar panels needed. My last contact was on June 10, 2018."
+    }
+  ]
+}

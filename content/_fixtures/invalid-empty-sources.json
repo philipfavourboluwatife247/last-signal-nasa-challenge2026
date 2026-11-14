@@ -1,0 +1,28 @@
+{
+  "id": "no-source-test",
+  "name": "Opportunity",
+  "world": "mars",
+  "location": {
+    "siteName": "Meridiani Planum",
+    "lat": -1.95,
+    "lon": -5.53
+  },
+  "mission": "Mars Exploration Rover",
+  "startDate": "2004-01-25",
+  "status": "silent",
+  "lastContact": "2018-06-10",
+  "summary": "A solar-powered rover planned for 90 days that worked for nearly 14 years and found evidence that water once shaped its landing region.",
+  "discoveries": [
+    "Evidence that liquid water once existed at Meridiani Planum"
+  ],
+  "stories": {
+    "kids": "I was built for a 90-day job and kept going for almost 14 years. A giant dust storm blocked the sunlight I needed, and I went quiet.",
+    "explorer": "Opportunity landed in January 2004 and explored Meridiani Planum, studying rocks that recorded a wetter Martian past. A global dust storm in 2018 cut off its solar power.",
+    "scientist": "Opportunity operated at Meridiani Planum from 2004 to 2018. Last contact was June 10, 2018, during a planet-encircling dust storm that limited solar power."
+  },
+  "keyNumbers": [],
+  "sources": [],
+  "review": {
+    "status": "draft"
+  }
+}

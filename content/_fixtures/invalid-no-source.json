@@ -1,0 +1,15 @@
+{
+  "id": "Bad Machine",
+  "name": "X",
+  "world": "venus",
+  "location": { "siteName": "Nowhere", "lat": 200, "lon": 0 },
+  "mission": "Test",
+  "startDate": "yesterday",
+  "status": "silent",
+  "summary": "short",
+  "discoveries": [],
+  "stories": { "kids": "a", "explorer": "b", "scientist": "c" },
+  "keyNumbers": [{ "label": "x", "value": "1", "sourceId": "ghost" }],
+  "sources": [],
+  "review": { "status": "verified" }
+}

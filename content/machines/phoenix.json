@@ -1,0 +1,141 @@
+{
+  "id": "phoenix",
+  "name": "Phoenix",
+  "world": "mars",
+  "location": {
+    "siteName": "Green Valley, Vastitas Borealis",
+    "lat": 68.22,
+    "lon": -125.75
+  },
+  "mission": "Phoenix Mars Lander",
+  "startDate": "2008-05-25",
+  "status": "silent",
+  "lastContact": "2008-11-02",
+  "summary": "A solar-powered lander that dug into the Martian arctic and confirmed water ice just below the surface, then went quiet as the days grew darker and colder.",
+  "discoveries": [
+    "Found water ice just below the surface of the Martian arctic.",
+    "Dug, scooped, baked, sniffed and tasted the arctic soil."
+  ],
+  "stories": {
+    "kids": "I’m Phoenix. I landed farther north on Mars than any spacecraft before me. My robot arm dug into the ground and found water ice. When the days grew short and cold, my solar panels lost their sunlight, and my signal faded in November 2008.",
+    "explorer": "Phoenix landed on the arctic plains of Mars on May 25, 2008, at a latitude like northern Alaska. In July 2008 its tests confirmed water ice below the surface. Its last brief signal reached Earth on November 2, 2008, as sunlight faded.",
+    "scientist": "Phoenix landed at about 68.22° N, 234.25° E in the Green Valley of Vastitas Borealis on May 25, 2008. Its robot arm trenched the ground and, in tests announced on July 31, 2008, confirmed water ice in the Martian subsurface. Shorter daylight, a dustier sky and colder temperatures followed, and its last signal reached Earth on November 2, 2008."
+  },
+  "keyNumbers": [
+    {
+      "label": "Landed",
+      "value": "May 25, 2008",
+      "sourceId": "nasa-phoenix"
+    },
+    {
+      "label": "Last signal",
+      "value": "November 2, 2008",
+      "sourceId": "nasa-phoenix"
+    },
+    {
+      "label": "Landing latitude",
+      "value": "about 68.2° N",
+      "sourceId": "nasa-phoenix"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-phoenix",
+      "title": "Phoenix",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/phoenix"
+    },
+    {
+      "id": "nasa-phoenix-hist",
+      "title": "15 Years Ago: Phoenix Mars Lander Launches to the Red Planet",
+      "publisher": "NASA History",
+      "url": "https://www.nasa.gov/history/15-years-ago-phoenix-mars-lander-launches-to-the-red-planet"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/phoenix.jpg",
+    "alt": "Technicians in clean-room suits prepare NASA’s Phoenix Mars lander before launch.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "BEFORE LAUNCH, ON EARTH"
+  },
+  "art": "lander-solar",
+  "learnMore": {
+    "label": "Read NASA’s Phoenix page",
+    "url": "https://science.nasa.gov/mission/phoenix"
+  },
+  "clues": [
+    {
+      "prompt": "What did my robot arm find under the Martian soil?",
+      "options": [
+        "Water ice",
+        "Dinosaur bones",
+        "Buried gold"
+      ],
+      "answer": 0,
+      "explain": "Phoenix confirmed water ice just below the surface.",
+      "card": 1
+    },
+    {
+      "prompt": "Where on Mars did I land?",
+      "options": [
+        "Near the equator",
+        "Inside a giant volcano",
+        "On the arctic plains, far in the north"
+      ],
+      "answer": 2,
+      "explain": "Phoenix landed on the arctic plains, farther north than any earlier Mars lander.",
+      "card": 0
+    },
+    {
+      "prompt": "Why did my signal fade in 2008?",
+      "options": [
+        "I ran out of fuel",
+        "My solar panels got less and less sunlight",
+        "A meteor hit me"
+      ],
+      "answer": 1,
+      "explain": "Shorter, colder, dustier days left my solar panels with too little light.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2008-05-25",
+      "tone": "arrive",
+      "title": "Landing in the Martian arctic",
+      "text": "Phoenix touches down on the arctic plains of Mars, farther north than any earlier spacecraft landing there."
+    },
+    {
+      "date": "2008-07-31",
+      "tone": "discover",
+      "title": "Water ice confirmed",
+      "text": "NASA announces that Phoenix has confirmed water ice in the Martian soil, just below the surface."
+    },
+    {
+      "date": "2008-11-02",
+      "tone": "end",
+      "title": "The last signal",
+      "text": "As sunlight fades, Phoenix sends a final brief signal to Earth. It never calls back."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Phoenix. I landed on May 25, 2008, on the arctic plains of Mars, at a latitude like northern Alaska. No spacecraft before me had landed so far north on Mars."
+    },
+    {
+      "title": "What I found",
+      "text": "My robot arm dug into the ground and found ice. Tests of the soil, announced on July 31, 2008, confirmed that it was water ice just below the surface."
+    },
+    {
+      "title": "How it ended",
+      "text": "As the days grew shorter, colder and dustier, my solar panels got less and less sunlight. My last signal reached Earth on November 2, 2008, after I had worked for more than five months."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "surveyor3",
+  "name": "Surveyor 3",
+  "world": "moon",
+  "location": {
+    "siteName": "Oceanus Procellarum",
+    "lat": -3.016,
+    "lon": -23.418
+  },
+  "mission": "Surveyor program",
+  "startDate": "1967-04-20",
+  "status": "silent",
+  "lastContact": "1967-05-04",
+  "summary": "A robotic lander that scouted the Moon before astronauts arrived, and was later visited by the Apollo 12 crew.",
+  "discoveries": [
+    "Sent back about 6,300 photos of the lunar surface.",
+    "Its soil scoop tested how strong the lunar ground was, a key step before crewed landings."
+  ],
+  "stories": {
+    "kids": "I landed before any person did, to check that the ground was safe. I took about 6,300 pictures. Two and a half years later, astronauts landed a short walk away and took my camera home to study.",
+    "explorer": "Surveyor 3 landed in April 1967 and went quiet in early May, after the lunar night began. In November 1969, Apollo 12 astronauts landed about 180 meters away, removed parts including its camera, and brought them back to Earth.",
+    "scientist": "Surveyor 3 soft-landed in Oceanus Procellarum on April 20, 1967. Last contact was May 4, 1967, two days after the lunar night began. Apollo 12’s Intrepid landed roughly 180 m from it in November 1969 and the crew returned components including the camera and soil scoop."
+  },
+  "keyNumbers": [
+    {
+      "label": "Photos returned",
+      "value": "about 6,300",
+      "sourceId": "nasa-s3"
+    },
+    {
+      "label": "Apollo 12 landing distance",
+      "value": "about 180 m",
+      "sourceId": "nasa-s3"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-s3",
+      "title": "Surveyor 3",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-3/"
+    },
+    {
+      "id": "nssdc-a12-img",
+      "title": "Apollo 12 and Surveyor 3 on the Moon (image record)",
+      "publisher": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7133.html"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/surveyor3.jpg",
+    "alt": "A Surveyor-type lander in a test hall on Earth, showing its solar panel, antenna mast and landing legs.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "SURVEYOR LANDER ON EARTH"
+  },
+  "art": "lander-legs",
+  "learnMore": {
+    "label": "Read more on NASA Science",
+    "url": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-3/"
+  },
+  "clues": [
+    {
+      "prompt": "Why did I land on the Moon before any person did?",
+      "options": [
+        "To build a base",
+        "To check that the ground was safe",
+        "To collect rocks for Earth"
+      ],
+      "answer": 1,
+      "explain": "Surveyor landers scouted the surface, and my scoop tested how strong the ground was.",
+      "card": 1
+    },
+    {
+      "prompt": "What did the Apollo 12 astronauts do when they visited me?",
+      "options": [
+        "They removed parts, including my camera, and took them home",
+        "They painted my legs",
+        "They switched me back on"
+      ],
+      "answer": 0,
+      "explain": "The crew landed about 180 meters away and brought back pieces of me for study.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1967-04-20",
+      "tone": "arrive",
+      "title": "Touchdown",
+      "text": "Surveyor 3 soft-lands in Oceanus Procellarum, then photographs the surface and tests how strong the ground is."
+    },
+    {
+      "date": "1967-05-04",
+      "tone": "end",
+      "title": "Last contact",
+      "text": "Contact is lost on May 4, 1967, after the lunar night begins. About 6,300 photos were sent home."
+    },
+    {
+      "date": "1969-11",
+      "tone": "discover",
+      "title": "A visit from Apollo 12",
+      "text": "Astronauts land about 180 meters away and take parts, including the camera, back to Earth."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Surveyor 3, a robot lander. I touched down in Oceanus Procellarum on April 20, 1967, before any person had landed on the Moon."
+    },
+    {
+      "title": "My job",
+      "text": "My job was to check that the ground was safe for astronauts. I sent back about 6,300 photos, and my scoop tested how strong the soil was."
+    },
+    {
+      "title": "A surprise visit",
+      "text": "In November 1969, Apollo 12 astronauts landed about 180 meters from me. They removed parts, including my camera, and took them home to study."
+    }
+  ]
+}

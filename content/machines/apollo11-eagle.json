@@ -1,0 +1,136 @@
+{
+  "id": "apollo11-eagle",
+  "name": "Apollo 11 Lunar Module Eagle",
+  "world": "moon",
+  "location": {
+    "siteName": "Tranquility Base, Sea of Tranquility",
+    "lat": 0.674,
+    "lon": 23.473
+  },
+  "mission": "Apollo 11",
+  "startDate": "1969-07-20",
+  "status": "silent",
+  "lastContact": "1969-07-21",
+  "summary": "The lunar module that carried the first people to the Moon’s surface. Its descent stage still stands at Tranquility Base.",
+  "discoveries": [
+    "Landed Neil Armstrong and Buzz Aldrin on the Moon, the first people to walk on another world.",
+    "Its descent stage was the launch pad for the trip home, and it was left behind."
+  ],
+  "stories": {
+    "kids": "I’m Eagle, the lander that took the first two people to the Moon’s surface. When it was time to go home, my top half flew them up to meet Michael Collins, and my bottom half stayed behind as a launch pad. It’s still at Tranquility Base.",
+    "explorer": "Eagle landed in the Sea of Tranquility on July 20, 1969. Armstrong and Aldrin spent about 21.6 hours on the surface before the ascent stage lifted off on July 21 at 17:54 UTC. The descent stage remains at Tranquility Base, and the ascent stage was left in lunar orbit.",
+    "scientist": "The Apollo 11 Lunar Module Eagle landed at 0.67409° N, 23.47298° E (NASA NSSDC) on 20 July 1969. After a surface stay of 21.6 hours, the ascent stage launched on 21 July 1969 at 17:54 UTC, using the descent stage as its launch platform, and was left in lunar orbit."
+  },
+  "keyNumbers": [
+    {
+      "label": "Landed",
+      "value": "July 20, 1969",
+      "sourceId": "alsj-a11"
+    },
+    {
+      "label": "Time on the surface",
+      "value": "21.6 hours",
+      "sourceId": "alsj-a11"
+    }
+  ],
+  "sources": [
+    {
+      "id": "alsj-a11",
+      "title": "Apollo 11 Overview (Apollo Lunar Surface Journal)",
+      "publisher": "NASA",
+      "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html"
+    },
+    {
+      "id": "si-a11",
+      "title": "Apollo 11 Moon Landing",
+      "publisher": "Smithsonian National Air and Space Museum",
+      "url": "https://airandspace.si.edu/apollo-missions/apollo-11-moon-landing"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "art": "lander-legs",
+  "image": {
+    "url": "/machines/apollo11-eagle.jpg",
+    "alt": "The Apollo lunar module Eagle standing on the Moon on its gold-foil landing legs, with an astronaut beside it under a black sky.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "APOLLO 11 LUNAR MODULE ON THE MOON"
+  },
+  "learnMore": {
+    "label": "Read NASA’s Apollo 11 overview",
+    "url": "https://nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html"
+  },
+  "clues": [
+    {
+      "prompt": "Where on the Moon did I land?",
+      "options": [
+        "The Sea of Tranquility",
+        "The Ocean of Storms",
+        "Hadley Rille"
+      ],
+      "answer": 0,
+      "explain": "Eagle landed at Tranquility Base, in the Sea of Tranquility.",
+      "card": 0
+    },
+    {
+      "prompt": "How long did the crew stay on the surface?",
+      "options": [
+        "About 2 hours",
+        "About 21 hours",
+        "About 9 days"
+      ],
+      "answer": 1,
+      "explain": "NASA records a surface stay of 21.6 hours.",
+      "card": 1
+    },
+    {
+      "prompt": "What part of me is still at Tranquility Base?",
+      "options": [
+        "My descent stage",
+        "My ascent stage",
+        "Nothing at all"
+      ],
+      "answer": 0,
+      "explain": "The descent stage was the launch pad and was left behind.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1969-07-16",
+      "tone": "arrive",
+      "title": "Launch toward the Moon",
+      "text": "Apollo 11 lifts off on a Saturn V rocket with the lunar module Eagle on board."
+    },
+    {
+      "date": "1969-07-20",
+      "tone": "discover",
+      "title": "The Eagle has landed",
+      "text": "Armstrong and Aldrin land Eagle in the Sea of Tranquility, and Armstrong radios Houston from Tranquility Base."
+    },
+    {
+      "date": "1969-07-21",
+      "tone": "end",
+      "title": "Liftoff for home",
+      "text": "The ascent stage lifts the crew back into lunar orbit. The descent stage stays on the Moon."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Eagle, the lunar module of Apollo 11. On July 20, 1969, I landed Neil Armstrong and Buzz Aldrin in the Sea of Tranquility, and Armstrong radioed, “Houston, Tranquility Base here. The Eagle has landed.”"
+    },
+    {
+      "title": "What I did",
+      "text": "Armstrong and Aldrin spent about 21.6 hours on the surface with me. Then my upper half, the ascent stage, lifted them off to rejoin Michael Collins in orbit."
+    },
+    {
+      "title": "Where I am now",
+      "text": "My lower half, the descent stage, was the launch pad, and it is still standing at Tranquility Base. My upper half was left in lunar orbit."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "viking1",
+  "name": "Viking 1",
+  "world": "mars",
+  "location": {
+    "siteName": "Chryse Planitia",
+    "lat": 22.7,
+    "lon": -47.95
+  },
+  "mission": "Viking program",
+  "startDate": "1976-07-20",
+  "status": "silent",
+  "lastContact": "1982-11-11",
+  "summary": "The first U.S. lander to work successfully on Mars, photographing the surface and testing soil for signs of life until a faulty command ended contact.",
+  "discoveries": [
+    "Sent back pictures and weather data from Mars for about six years.",
+    "Ran experiments on Martian soil to look for signs of life."
+  ],
+  "stories": {
+    "kids": "I was the first U.S. lander to work successfully on Mars, and I kept going for years. I scooped up soil and tested it for tiny living things. In 1982 a mistaken command from Earth cut off my signal, but my pictures changed how we see Mars.",
+    "explorer": "Viking 1 touched down on Chryse Planitia on July 20, 1976 and operated until November 11, 1982, when a faulty command sent from Earth interrupted communications. NASA spent months trying, without success, to regain contact.",
+    "scientist": "Viking Lander 1 landed in western Chryse Planitia on July 20, 1976. Communications were lost in November 1982 after a faulty command; JPL attempts to re-establish contact were unsuccessful. The lander was renamed the Thomas A. Mutch Memorial Station."
+  },
+  "keyNumbers": [
+    {
+      "label": "Landed",
+      "value": "July 20, 1976",
+      "sourceId": "jpl-viking"
+    },
+    {
+      "label": "Contact lost",
+      "value": "November 1982",
+      "sourceId": "jpl-viking"
+    }
+  ],
+  "sources": [
+    {
+      "id": "jpl-viking",
+      "title": "Attempts to Communicate to Viking Lander 1 Concluded",
+      "publisher": "NASA/JPL",
+      "url": "https://www.jpl.nasa.gov/news/attempts-to-communicate-to-viking-lander-1-concluded/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/viking1.jpg",
+    "alt": "A Viking lander model photographed on Earth, showing its three landing legs, dish antenna and robot arm.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "LANDER MODEL ON EARTH"
+  },
+  "art": "lander-viking",
+  "learnMore": {
+    "label": "Read the NASA/JPL story",
+    "url": "https://www.jpl.nasa.gov/news/attempts-to-communicate-to-viking-lander-1-concluded/"
+  },
+  "clues": [
+    {
+      "prompt": "What did I test the Martian soil for?",
+      "options": [
+        "Gold",
+        "Radio signals",
+        "Signs of life"
+      ],
+      "answer": 2,
+      "explain": "I ran biology experiments on Martian soil.",
+      "card": 1
+    },
+    {
+      "prompt": "What ended my signal in 1982?",
+      "options": [
+        "A faulty command sent from Earth",
+        "A meteor strike",
+        "A dust storm"
+      ],
+      "answer": 0,
+      "explain": "NASA says a faulty command interrupted communications.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1976-07-20",
+      "tone": "arrive",
+      "title": "Touchdown in Chryse Planitia",
+      "text": "Viking 1 lands, then photographs the surface and tests the soil for signs of life."
+    },
+    {
+      "date": "1982-11-11",
+      "tone": "end",
+      "title": "The signal fades",
+      "text": "A faulty command from Earth interrupts communications. NASA keeps trying, without success."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Viking 1. I landed in Chryse Planitia on July 20, 1976, and I was the first U.S. lander to work successfully on Mars, and I kept going for years, not days."
+    },
+    {
+      "title": "What I did",
+      "text": "I photographed the surface, sent back weather data, and ran biology experiments to test Martian soil for signs of life."
+    },
+    {
+      "title": "How it ended",
+      "text": "On November 11, 1982, a faulty command sent from Earth interrupted my communications. NASA tried for months, without success."
+    }
+  ]
+}

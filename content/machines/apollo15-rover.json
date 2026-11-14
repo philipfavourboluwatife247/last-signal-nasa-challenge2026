@@ -1,0 +1,120 @@
+{
+  "id": "apollo15-rover",
+  "name": "Apollo 15 Lunar Rover",
+  "world": "moon",
+  "location": {
+    "siteName": "Hadley–Apennine region",
+    "lat": 26.13,
+    "lon": 3.63
+  },
+  "mission": "Apollo 15",
+  "startDate": "1971-07-30",
+  "status": "silent",
+  "lastContact": "1971-08-02",
+  "summary": "The first Lunar Roving Vehicle used by astronauts, parked near Hadley Rille when the crew flew home.",
+  "discoveries": [
+    "Carried astronauts far beyond walking distance to collect rock samples.",
+    "Three lunar rovers remain on the Moon, from Apollo 15, 16 and 17."
+  ],
+  "stories": {
+    "kids": "I’m the first car astronauts ever drove on the Moon. Thanks to me, they explored mountains and a winding valley called Hadley Rille. When they flew home, they parked me. I’m still parked there.",
+    "explorer": "Apollo 15 was the first mission to use a Lunar Roving Vehicle. It let the crew travel much farther from the lander than on foot. After the final moonwalk it was left behind, like the rovers of Apollo 16 and 17.",
+    "scientist": "The Apollo 15 Lunar Roving Vehicle was deployed at the Hadley–Apennine site in July–August 1971 and abandoned at the end of the third moonwalk. The mission’s rover traverses totaled about 28 km."
+  },
+  "keyNumbers": [
+    {
+      "label": "Distance driven (Apollo 15)",
+      "value": "27.8 km",
+      "sourceId": "nssdca-lrv"
+    }
+  ],
+  "sources": [
+    {
+      "id": "a15-summary",
+      "title": "The Apollo 15 Mission (NASA JSC)",
+      "publisher": "NASA Johnson Space Center",
+      "url": "https://www-curator.jsc.nasa.gov/lunar/catalogs/apollo15/part1/apollo15mission.pdf"
+    },
+    {
+      "id": "nssdca-lrv",
+      "title": "The Apollo Lunar Roving Vehicle",
+      "publisher": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/lunar-rover.jpg",
+    "alt": "An Apollo Lunar Roving Vehicle parked on the Moon, with its dish antenna and wire wheels, under a black sky.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "LUNAR ROVER ON THE MOON"
+  },
+  "art": "buggy",
+  "learnMore": {
+    "label": "Read NASA’s Apollo 15 mission summary (PDF)",
+    "url": "https://www-curator.jsc.nasa.gov/lunar/catalogs/apollo15/part1/apollo15mission.pdf"
+  },
+  "clues": [
+    {
+      "prompt": "What was special about the vehicle I am?",
+      "options": [
+        "The first rover on Mars",
+        "The first helicopter on the Moon",
+        "The first Lunar Roving Vehicle used by astronauts"
+      ],
+      "answer": 2,
+      "explain": "Apollo 15 was the first mission to use a Lunar Roving Vehicle.",
+      "card": 0
+    },
+    {
+      "prompt": "What happened to me when the astronauts flew home?",
+      "options": [
+        "They parked me and left me on the Moon",
+        "They brought me back to Earth",
+        "I drove away on my own"
+      ],
+      "answer": 0,
+      "explain": "All three Apollo rovers were left behind on the Moon.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1971-07-30",
+      "tone": "arrive",
+      "title": "Landing at Hadley–Apennine",
+      "text": "Apollo 15 lands near Hadley Rille."
+    },
+    {
+      "date": "1971-07-31",
+      "tone": "discover",
+      "title": "The first drive",
+      "text": "Astronauts use the first Lunar Roving Vehicle ever taken to the Moon, reaching places far beyond walking distance."
+    },
+    {
+      "date": "1971-08-02",
+      "tone": "end",
+      "title": "Parked for good",
+      "text": "After the last moonwalk the crew flies home and leaves the rover parked on the Moon. About 28 km driven in all."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m the Lunar Roving Vehicle from Apollo 15. I was the first Lunar Roving Vehicle ever used by astronauts, starting on July 31, 1971."
+    },
+    {
+      "title": "What I did",
+      "text": "I carried the crew across the Hadley–Apennine region, far beyond walking distance, so they could collect rock samples. I drove about 28 km in all."
+    },
+    {
+      "title": "Where I am now",
+      "text": "When the crew flew home on August 2, 1971, they parked me on the Moon and left me there. The Apollo 16 and 17 rovers were left behind too, so three rovers are still on the Moon."
+    }
+  ]
+}

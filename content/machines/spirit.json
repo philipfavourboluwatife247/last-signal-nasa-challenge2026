@@ -1,0 +1,136 @@
+{
+  "id": "spirit",
+  "name": "Spirit",
+  "world": "mars",
+  "location": {
+    "siteName": "Gusev crater",
+    "lat": -14.57,
+    "lon": 175.47
+  },
+  "mission": "Mars Exploration Rover",
+  "startDate": "2004-01-04",
+  "status": "silent",
+  "lastContact": "2010-03-22",
+  "summary": "A solar-powered rover planned for 90 sols that worked for six years and found signs of past water, until it got stuck in soft sand.",
+  "discoveries": [
+    "Found signs that water once altered rocks and soil in Gusev crater."
+  ],
+  "stories": {
+    "kids": "I was built for a 90-day job and I stayed for six years. I found clues that water once changed the ground here. In 2009 I got stuck in soft sand, and in 2010 my last message reached Earth.",
+    "explorer": "Spirit explored Gusev crater from January 2004. In 2009 it became stuck in sand, and NASA’s last contact with it was March 22, 2010. Recovery efforts ended in May 2011.",
+    "scientist": "Spirit landed in Gusev crater on January 4, 2004 (UTC), with a planned primary mission of 90 sols. It became embedded in soft soil in 2009; last communication was March 22, 2010 and recovery attempts ended on May 25, 2011."
+  },
+  "keyNumbers": [
+    {
+      "label": "Planned mission",
+      "value": "90 sols",
+      "sourceId": "mer"
+    },
+    {
+      "label": "Last contact",
+      "value": "March 22, 2010",
+      "sourceId": "mer"
+    }
+  ],
+  "sources": [
+    {
+      "id": "mer",
+      "title": "Mars Exploration Rovers: Spirit and Opportunity",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+    },
+    {
+      "id": "nasa-mer-spirit",
+      "title": "Mars Exploration Rover – Spirit",
+      "publisher": "NASA Science",
+      "url": "https://science.nasa.gov/mission/mer-spirit/"
+    },
+    {
+      "id": "jpl-spirit-end",
+      "title": "NASA Concludes Attempts to Contact Mars Rover Spirit",
+      "publisher": "NASA/JPL",
+      "url": "https://www.jpl.nasa.gov/news/nasa-concludes-attempts-to-contact-mars-rover-spirit/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/spirit.jpg",
+    "alt": "Wide-angle view across the deck of the Spirit rover on Mars, taken by the rover’s own camera.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "PHOTO ON MARS"
+  },
+  "art": "rover",
+  "learnMore": {
+    "label": "Read more on NASA Science",
+    "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+  },
+  "clues": [
+    {
+      "prompt": "What clue did I find in Gusev crater?",
+      "options": [
+        "Signs that water once changed the rocks and soil",
+        "Ancient cities",
+        "Living plants"
+      ],
+      "answer": 0,
+      "explain": "The rocks and soil showed signs of past water activity.",
+      "card": 1
+    },
+    {
+      "prompt": "What stopped me from moving in 2009?",
+      "options": [
+        "A dust storm",
+        "I got stuck in soft sand",
+        "I ran out of fuel"
+      ],
+      "answer": 1,
+      "explain": "I became stuck in soft soil in 2009, and I’m solar-powered, so there was no fuel to run out.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2004-01-04",
+      "tone": "arrive",
+      "title": "Landing in Gusev crater",
+      "text": "Spirit begins a mission planned for 90 sols."
+    },
+    {
+      "date": "2009",
+      "tone": "trouble",
+      "title": "Stuck in soft sand",
+      "text": "Spirit becomes embedded in soft soil and cannot drive free."
+    },
+    {
+      "date": "2010-03-22",
+      "tone": "end",
+      "title": "Last contact",
+      "text": "NASA’s last communication with Spirit arrives on March 22, 2010."
+    },
+    {
+      "date": "2011-05-25",
+      "tone": "end",
+      "title": "Recovery efforts end",
+      "text": "After many attempts to free the rover, NASA ends recovery efforts."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Spirit, a solar-powered rover. I landed in Gusev crater on January 4, 2004, for a mission planned to last 90 sols."
+    },
+    {
+      "title": "What I found",
+      "text": "My instruments found signs that water once changed the rocks and soil of Gusev crater."
+    },
+    {
+      "title": "What happened",
+      "text": "In 2009 I became stuck in soft sand and couldn’t drive free. NASA’s last contact with me was on March 22, 2010. I run on sunlight, so I never had fuel to run out of."
+    }
+  ]
+}

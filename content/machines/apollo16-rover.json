@@ -1,0 +1,142 @@
+{
+  "id": "apollo16-rover",
+  "name": "Apollo 16 Lunar Rover",
+  "world": "moon",
+  "location": {
+    "siteName": "Descartes Highlands",
+    "lat": -8.97,
+    "lon": 15.5
+  },
+  "mission": "Apollo 16",
+  "startDate": "1972-04-21",
+  "status": "silent",
+  "lastContact": "1972-04-23",
+  "summary": "The second Lunar Roving Vehicle driven by astronauts, parked in the Descartes Highlands after three moonwalks in April 1972.",
+  "discoveries": [
+    "Carried John Young and Charles Duke to craters and mountain slopes in the Descartes Highlands.",
+    "Drove about 26.7 km over three moonwalks."
+  ],
+  "stories": {
+    "kids": "I’m the second car astronauts ever drove on the Moon. John Young and Charles Duke used me to explore the Descartes Highlands, a rugged land of craters and mountains. When they flew home, they parked me. I’m still parked there.",
+    "explorer": "Apollo 16 landed in the Descartes Highlands on April 21, 1972. The crew drove their Lunar Roving Vehicle to Stone Mountain and North Ray Crater, covering 26.7 km in all. After the last moonwalk it was left behind, like the rovers of Apollo 15 and 17.",
+    "scientist": "The Apollo 16 Lunar Roving Vehicle, the second flown, was deployed on the first moonwalk, 21 April 1972 UTC, near 8.97° S, 15.50° E in the Descartes Highlands. Across three moonwalks it covered about 26.7 km (NASA NSSDCA), reaching the slopes of Stone Mountain and the rim of North Ray Crater, and was left on the surface."
+  },
+  "keyNumbers": [
+    {
+      "label": "Distance driven (Apollo 16)",
+      "value": "26.7 km",
+      "sourceId": "nssdca-lrv"
+    },
+    {
+      "label": "Moonwalks with the rover",
+      "value": "3",
+      "sourceId": "pds-a16"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nssdca-lrv",
+      "title": "The Apollo Lunar Roving Vehicle",
+      "publisher": "NASA NSSDCA",
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+    },
+    {
+      "id": "pds-a16",
+      "title": "Apollo 16 Mission Overview (surface operations)",
+      "publisher": "NASA PDS Geosciences Node",
+      "url": "https://pds-geosciences.wustl.edu/lunar/urn-nasa-pds-a16lsrp_soil_mechanics/document/a16_mission.txt"
+    },
+    {
+      "id": "nasa-a16-home",
+      "title": "Apollo 16 Heads Home to Earth",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/history/apollo-16-heads-home-to-earth/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/lunar-rover.jpg",
+    "alt": "An Apollo Lunar Roving Vehicle parked on the Moon, with its dish antenna and wire wheels, under a black sky.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "LUNAR ROVER ON THE MOON"
+  },
+  "art": "buggy",
+  "learnMore": {
+    "label": "Read NASA’s Lunar Roving Vehicle page",
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+  },
+  "clues": [
+    {
+      "prompt": "Which part of the Moon did I explore?",
+      "options": [
+        "The Descartes Highlands",
+        "The Sea of Tranquility",
+        "The Taurus–Littrow valley"
+      ],
+      "answer": 0,
+      "explain": "Apollo 16 landed in the Descartes Highlands.",
+      "card": 0
+    },
+    {
+      "prompt": "How far did I drive in all?",
+      "options": [
+        "About 2.7 km",
+        "About 26.7 km",
+        "About 267 km"
+      ],
+      "answer": 1,
+      "explain": "NASA records about 26.7 km over three moonwalks.",
+      "card": 1
+    },
+    {
+      "prompt": "What happened to me when the crew flew home?",
+      "options": [
+        "I drove away on my own",
+        "They brought me back to Earth",
+        "They parked me and left me on the Moon"
+      ],
+      "answer": 2,
+      "explain": "The Apollo 16 rover was left behind on the Moon.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1972-04-21",
+      "tone": "arrive",
+      "title": "Landing at Descartes",
+      "text": "Apollo 16 lands in the Descartes Highlands, and the crew unpacks and first drives the second Lunar Roving Vehicle."
+    },
+    {
+      "date": "1972-04-22",
+      "tone": "discover",
+      "title": "Up Stone Mountain",
+      "text": "On the second moonwalk the rover carries the crew up the slope of Stone Mountain."
+    },
+    {
+      "date": "1972-04-23",
+      "tone": "end",
+      "title": "Parked for good",
+      "text": "After a final drive to North Ray Crater the crew flies home and leaves the rover parked. About 26.7 km driven in all."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m the Lunar Roving Vehicle from Apollo 16, the second rover astronauts ever drove on the Moon. John Young and Charles Duke landed in the Descartes Highlands on April 21, 1972."
+    },
+    {
+      "title": "What I did",
+      "text": "On three moonwalks I carried the crew up Stone Mountain and on to North Ray Crater. In all I drove about 26.7 km."
+    },
+    {
+      "title": "Where I am now",
+      "text": "After the last moonwalk on April 23, 1972, the crew flew home and left me parked on the Moon. I’m one of three rovers still there, with the rovers of Apollo 15 and 17."
+    }
+  ]
+}

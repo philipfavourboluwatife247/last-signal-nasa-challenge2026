@@ -1,0 +1,119 @@
+{
+  "id": "sojourner",
+  "name": "Sojourner and Pathfinder",
+  "world": "mars",
+  "location": {
+    "siteName": "Ares Vallis",
+    "lat": 19.13,
+    "lon": -33.22
+  },
+  "mission": "Mars Pathfinder",
+  "startDate": "1997-07-04",
+  "status": "silent",
+  "lastContact": "1997-09-27",
+  "summary": "The first rover to drive on Mars, planned for about a week and active for 83 sols.",
+  "discoveries": [
+    "Proved that a small rover could drive and study rocks on Mars.",
+    "Operated for 83 sols after a planned mission of 7, about twelve times its design life."
+  ],
+  "stories": {
+    "kids": "I was a tiny rover, and I was the first to ever drive on Mars. I was only supposed to work for about a week. I kept going for 83 Martian days and showed the world that rovers on Mars were possible.",
+    "explorer": "Sojourner rode to Mars on the Pathfinder lander in July 1997. It was designed for 7 sols, but it kept working for 83. Pathfinder’s last successful transmission was in late September 1997.",
+    "scientist": "Mars Pathfinder landed at Ares Vallis on July 4, 1997. The Sojourner rover was designed for 7 sols and operated for 83 sols. The final data transmission from Pathfinder was received on September 27, 1997."
+  },
+  "keyNumbers": [
+    {
+      "label": "Planned rover mission",
+      "value": "7 sols",
+      "sourceId": "pf-summary"
+    },
+    {
+      "label": "Rover operated",
+      "value": "83 sols",
+      "sourceId": "pf-summary"
+    }
+  ],
+  "sources": [
+    {
+      "id": "pf-summary",
+      "title": "Sojourner’s Farthest Journey (Mars Pathfinder, Sol 75)",
+      "publisher": "NASA/JPL",
+      "url": "https://science.nasa.gov/resource/sojourners-farthest-journey/"
+    },
+    {
+      "id": "jpl-mpf-facts",
+      "title": "Mars Pathfinder (NASA Facts, archived copy)",
+      "publisher": "NASA/JPL",
+      "url": "https://webarchive.library.unt.edu/web/20090813031850/http:/jpl.nasa.gov/news/fact_sheets/mpf.pdf"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/sojourner.jpg",
+    "alt": "The Sojourner rover on the rocky surface of Mars, with its solar panel on top and six wheels on the ground.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "PHOTO ON MARS"
+  },
+  "art": "rover-small",
+  "learnMore": {
+    "label": "See Sojourner on NASA Science",
+    "url": "https://science.nasa.gov/resource/sojourners-farthest-journey/"
+  },
+  "clues": [
+    {
+      "prompt": "How long was my mission supposed to last?",
+      "options": [
+        "7 sols, about a week",
+        "83 sols",
+        "One whole year"
+      ],
+      "answer": 0,
+      "explain": "I was designed for 7 sols.",
+      "card": 1
+    },
+    {
+      "prompt": "How many Martian days (sols) did I actually work?",
+      "options": [
+        "9 sols",
+        "365 sols",
+        "83 sols"
+      ],
+      "answer": 2,
+      "explain": "I worked for 83 sols, about twelve times my design life.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1997-07-04",
+      "tone": "arrive",
+      "title": "Landing on Mars",
+      "text": "Mars Pathfinder lands at Ares Vallis, carrying the Sojourner rover."
+    },
+    {
+      "date": "1997-09-27",
+      "tone": "end",
+      "title": "Last transmission",
+      "text": "Pathfinder’s final data transmission arrives. Sojourner worked for 83 sols, with only 7 planned."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m Sojourner, a tiny six-wheeled rover. I rode to Mars on the Mars Pathfinder lander and we landed on July 4, 1997."
+    },
+    {
+      "title": "My mission",
+      "text": "I was designed to work for 7 sols, about a week. A sol is one Martian day, a little longer than an Earth day."
+    },
+    {
+      "title": "How it went",
+      "text": "I kept going for 83 sols, about twelve times my design life. Pathfinder’s last data transmission arrived on September 27, 1997."
+    }
+  ]
+}

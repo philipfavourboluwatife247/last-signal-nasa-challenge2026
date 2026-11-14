@@ -1,0 +1,128 @@
+{
+  "id": "insight",
+  "name": "InSight",
+  "world": "mars",
+  "location": {
+    "siteName": "Elysium Planitia",
+    "lat": 4.5,
+    "lon": 135.62
+  },
+  "mission": "InSight",
+  "startDate": "2018-11-26",
+  "status": "silent",
+  "lastContact": "2022-12-15",
+  "summary": "A lander that listened to the inside of Mars with a seismometer and detected more than 1,300 marsquakes before dust ended its mission.",
+  "discoveries": [
+    "Detected more than 1,300 marsquakes.",
+    "A magnitude 5 marsquake on May 4, 2022 was the largest detected.",
+    "Helped reveal the layers inside Mars."
+  ],
+  "stories": {
+    "kids": "I didn’t drive anywhere. I sat still and listened to Mars shaking. I heard more than 1,300 marsquakes! Slowly, dust covered my solar panels, and in 2022 I went to sleep.",
+    "explorer": "InSight landed in November 2018 and used a sensitive seismometer to study Mars’s interior. Dust built up on its solar panels until it could not power itself. Its last contact was December 15, 2022, and NASA declared the mission over on December 21.",
+    "scientist": "InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport) detected more than 1,300 marsquakes (1,319 reported), including a magnitude 5 event on May 4, 2022. Accumulating dust on the solar arrays reduced power; last contact was December 15, 2022 and the mission ended December 21, 2022."
+  },
+  "keyNumbers": [
+    {
+      "label": "Marsquakes detected",
+      "value": "more than 1,300",
+      "sourceId": "nasa-insight"
+    },
+    {
+      "label": "Last contact",
+      "value": "December 15, 2022",
+      "sourceId": "nasa-insight"
+    }
+  ],
+  "sources": [
+    {
+      "id": "nasa-insight",
+      "title": "NASA InSight blog: December 19, 2022",
+      "publisher": "NASA",
+      "url": "https://blogs.nasa.gov/insight/2022/12/19/nasa-insight-dec-19-2022/"
+    }
+  ],
+  "review": {
+    "status": "verified",
+    "reviewer": "AI-assisted check against NASA sources (Claude)",
+    "date": "2026-11-14"
+  },
+  "image": {
+    "url": "/machines/insight.jpg",
+    "alt": "Artist’s illustration of the InSight lander on the surface of Mars with its two round solar panels open.",
+    "credit": "NASA",
+    "creditUrl": "https://images.nasa.gov/",
+    "note": "ARTIST’S CONCEPT"
+  },
+  "art": "lander-solar",
+  "learnMore": {
+    "label": "Read the NASA InSight blog",
+    "url": "https://blogs.nasa.gov/insight/2022/12/19/nasa-insight-dec-19-2022/"
+  },
+  "clues": [
+    {
+      "prompt": "What did my seismometer listen for?",
+      "options": [
+        "Marsquakes",
+        "Thunder",
+        "Wind chimes"
+      ],
+      "answer": 0,
+      "explain": "I detected more than 1,300 marsquakes.",
+      "card": 1
+    },
+    {
+      "prompt": "What slowly covered my solar panels?",
+      "options": [
+        "Leaves",
+        "Rain",
+        "Dust"
+      ],
+      "answer": 2,
+      "explain": "Accumulating dust reduced my power until I could not keep going.",
+      "card": 2
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-11-26",
+      "tone": "arrive",
+      "title": "Landing at Elysium Planitia",
+      "text": "InSight settles in to listen to the inside of Mars."
+    },
+    {
+      "date": "2022-05-04",
+      "tone": "discover",
+      "title": "A magnitude 5 marsquake",
+      "text": "InSight detects a magnitude 5 marsquake, the largest it recorded.",
+      "fx": "quake"
+    },
+    {
+      "date": "2022-12-15",
+      "tone": "end",
+      "title": "Last contact",
+      "text": "Dust-covered solar panels can no longer power the lander.",
+      "fx": "dust"
+    },
+    {
+      "date": "2022-12-21",
+      "tone": "end",
+      "title": "Mission declared over",
+      "text": "NASA declares the InSight mission over. It detected more than 1,300 marsquakes."
+    }
+  ],
+  "learn": [
+    {
+      "title": "Who I am",
+      "text": "I’m InSight, a lander. I touched down on Elysium Planitia on November 26, 2018, and I never drove anywhere."
+    },
+    {
+      "title": "What I heard",
+      "text": "My seismometer listened to the inside of Mars. I detected more than 1,300 marsquakes, including a magnitude 5 quake on May 4, 2022."
+    },
+    {
+      "title": "How it ended",
+      "text": "Dust slowly covered my solar panels until I couldn’t power myself. My last contact was December 15, 2022, and NASA declared the mission over on December 21."
+    }
+  ]
+}
